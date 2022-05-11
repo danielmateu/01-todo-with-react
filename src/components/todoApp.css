@@ -1,0 +1,104 @@
+.todoContainer{
+    width:500px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.todoCreateForm{
+    display: flex;
+    gap: 5px;
+}
+
+.todoInput{
+    flex-grow: 1;
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border:none;
+    background: rgba(173, 173, 173, 0.507);
+    outline: none;
+}
+
+.buttonCreate{
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    border:none;
+    background: #61dafb;
+    padding: 8px;
+    transition: .2s ease-in-out;
+    -webkit-transition: .2s ease-in-out;
+    -moz-transition: .2s ease-in-out;
+    -ms-transition: .2s ease-in-out;
+    -o-transition: .2s ease-in-out;
+}
+
+.buttonCreate:hover{
+    background: #3cadcd;
+    color: #fff;
+}
+
+.todoContainer{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    
+}
+
+.todo{
+    padding: 10px;
+    background: #fff ;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-bottom:6px
+}
+
+.todoTitle{
+    flex:1;
+}
+
+.todoUpdateForm .todoInput{
+    width:80%;
+    margin-bottom:-10px;
+}
+
+.btn{
+    border:none !important;
+    border-radius: 3px;
+    background: green;
+    padding: 10px;
+    color: white;
+    margin: 4px;
+    transition: .2s ease-in-out;
+    -webkit-transition: .2s ease-in-out;
+    -moz-transition: .2s ease-in-out;
+    -ms-transition: .2s ease-in-out;
+    -o-transition: .2s ease-in-out;
+}
+
+.btnDelete{
+    background: lightcoral;
+
+}
+
+.btnMod{
+    background: burlywood;
+    color:black;
+}
+
+.btn:hover{
+    background: rgb(200, 125, 203);
+    color:rgb(0, 0, 0);
+}
